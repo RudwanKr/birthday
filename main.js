@@ -193,7 +193,6 @@ const letters = [
     <p>تحياتي لك 🌟</p>
   `,
 ];
-
 // Handle each envelope
 envelopes.forEach((envelope) => {
   envelope.addEventListener("click", () => {
