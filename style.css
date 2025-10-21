@@ -80,7 +80,7 @@
     }
 
     h2 {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       margin-bottom: 20px;
       color: #5a3d5c;
     }
@@ -539,15 +539,16 @@
 
   .close-btn {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
     background: #ff4d94;
     color: white;
     border: none;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
     display: flex;
     justify-content: center;
