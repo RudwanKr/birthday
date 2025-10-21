@@ -21,6 +21,9 @@
       padding: 20px;
       position: relative;
     }
+    body.no-scroll {
+      overflow: hidden;
+    }
 
     .bg {
       position: absolute;

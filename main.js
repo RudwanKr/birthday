@@ -198,7 +198,7 @@ const letters = [
 envelopes.forEach((envelope) => {
   envelope.addEventListener("click", () => {
     const letterIndex = envelope.dataset.letter;
-
+    document.body.classList.add('no-scroll');
     // Insert correct letter content
     letterContent.innerHTML = `
       <button class="close-btn" id="closeBtn">×</button>
@@ -225,6 +225,7 @@ envelopes.forEach((envelope) => {
 function closeLetter() {
   fullscreenLetter.style.opacity = "0";
   letterContent.style.transform = "scale(0.9)";
+  document.body.classList.remove('no-scroll');
   setTimeout(() => {
     fullscreenLetter.style.display = "none";
     envelopes.forEach((e) => e.classList.remove("open"));
